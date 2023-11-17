@@ -1,0 +1,49 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  border-bottom: 2px solid rgb(245, 133, 133);
+  padding: 1px;
+  margin: 10px;
+
+}
+.header button{
+  height: 60px;
+  width: 100px;
+  background-color: rgb(246, 117, 117);
+}
+.image{
+  width: 200px;
+  height:  200px;
+  border: 1px solid red;
+  border-radius: 5px;
+  margin: 10px;
+}
+.container{
+display: flex;
+text-align: center;
+align-items: center;
+flex-wrap: wrap;
+padding:2px;
+margin: auto;
+
+}
+input .search{
+width: 80%;
+
+}
+.title{
+  margin: 0;
+  padding: 0;
+}
+.cart{
+  border: 1px solid transparent;
+  border-radius: 20px;
+  background-color: rgb(249, 245, 245);
+  box-shadow: 1px 1px 10px black;
+  height: 500px;
+  width: 30%;
+  margin: 10px;
+
+}
